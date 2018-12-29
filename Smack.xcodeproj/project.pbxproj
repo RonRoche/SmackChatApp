@@ -54,14 +54,38 @@
 		72DAF3D421D7BF8A0074C696 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				72DAF3E921D7C2CB0074C696 /* Model */,
+				72DAF3E821D7C2C60074C696 /* View */,
+				72DAF3E721D7C2BF0074C696 /* Controller */,
 				72DAF3D521D7BF8A0074C696 /* AppDelegate.swift */,
-				72DAF3D721D7BF8A0074C696 /* ViewController.swift */,
 				72DAF3D921D7BF8A0074C696 /* Main.storyboard */,
 				72DAF3DC21D7BF8B0074C696 /* Assets.xcassets */,
 				72DAF3DE21D7BF8B0074C696 /* LaunchScreen.storyboard */,
 				72DAF3E121D7BF8B0074C696 /* Info.plist */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		72DAF3E721D7C2BF0074C696 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72DAF3D721D7BF8A0074C696 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		72DAF3E821D7C2C60074C696 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72DAF3E921D7C2CB0074C696 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
