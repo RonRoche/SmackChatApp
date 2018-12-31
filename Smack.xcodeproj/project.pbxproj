@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		0BF1725E1C1E27286E68F3D4 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646F12DCE13F66382656462B /* Pods_Smack.framework */; };
 		722E062621D7DF8A0039DB7F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E062421D7DF8A0039DB7F /* SWRevealViewController.m */; };
+		722E062821D92EFD0039DB7F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E062721D92EFD0039DB7F /* ChatVC.swift */; };
+		722E062A21D92F0D0039DB7F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E062921D92F0D0039DB7F /* ChannelVC.swift */; };
 		72DAF3D621D7BF8A0074C696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DAF3D521D7BF8A0074C696 /* AppDelegate.swift */; };
-		72DAF3D821D7BF8A0074C696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DAF3D721D7BF8A0074C696 /* ViewController.swift */; };
 		72DAF3DB21D7BF8A0074C696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DAF3D921D7BF8A0074C696 /* Main.storyboard */; };
 		72DAF3DD21D7BF8B0074C696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DAF3DC21D7BF8B0074C696 /* Assets.xcassets */; };
 		72DAF3E021D7BF8B0074C696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DAF3DE21D7BF8B0074C696 /* LaunchScreen.storyboard */; };
@@ -22,9 +23,10 @@
 		722E062321D7DF890039DB7F /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		722E062421D7DF8A0039DB7F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		722E062521D7DF8A0039DB7F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		722E062721D92EFD0039DB7F /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		722E062921D92F0D0039DB7F /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		72DAF3D221D7BF8A0074C696 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DAF3D521D7BF8A0074C696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72DAF3D721D7BF8A0074C696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72DAF3DA21D7BF8A0074C696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72DAF3DC21D7BF8B0074C696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DAF3DF21D7BF8B0074C696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 		72DAF3E721D7C2BF0074C696 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				72DAF3D721D7BF8A0074C696 /* ViewController.swift */,
+				722E062721D92EFD0039DB7F /* ChatVC.swift */,
+				722E062921D92F0D0039DB7F /* ChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,7 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72DAF3D821D7BF8A0074C696 /* ViewController.swift in Sources */,
+				722E062A21D92F0D0039DB7F /* ChannelVC.swift in Sources */,
+				722E062821D92EFD0039DB7F /* ChatVC.swift in Sources */,
 				72DAF3D621D7BF8A0074C696 /* AppDelegate.swift in Sources */,
 				722E062621D7DF8A0039DB7F /* SWRevealViewController.m in Sources */,
 			);
